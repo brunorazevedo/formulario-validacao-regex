@@ -1,0 +1,50 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    max-width: 300px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+input, button{
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+    outline: none;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+
+button{
+    background-color: #0A4D68;
+    color: #eee;
+    border: none;
+    outline: none;
+    padding: 16px 32px;
+}
+
+
+p.feedback{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.sucess{
+    border: 2px solid #B3C99C;
+}
+
+.error{
+    border: 2px solid #CE5959;
+}
